@@ -12,7 +12,7 @@ def title():
 
     title_container = st.container()
     col1, col2 = st.columns([20,1])
-    image = Image.open("image_logo.png")
+    image = Image.open("logo.png")
     with title_container:
         with col1:
             st.markdown('<h1 style="color: purple;">Iris Classification Web App</h1>',
